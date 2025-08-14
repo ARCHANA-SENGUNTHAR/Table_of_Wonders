@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Periodic Table Explorer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mnemonics.css" />
+  <link rel="stylesheet" href="css/trends.css" />
+  <!-- Chart.js CDN for trends charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Periodic Table Explorer</h1>
+    <nav>
+      <button id="tab-elements" class="active">Explore Elements</button>
+      <button id="tab-mnemonics">Learn Quickly</button>
+      <button id="tab-trends">Periodic Trends</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="section-elements" class="tab-section active">
+      <!-- Periodic Table will be rendered here -->
+      <div id="periodic-table-container"></div>
+      <div id="element-details"></div>
+    </section>
+
+    <section id="section-mnemonics" class="tab-section">
+      <h2>Learn Quickly: Mnemonics</h2>
+      <div>
+        <label for="lang-select">Choose Language:</label>
+        <select id="lang-select">
+          <option value="english">English</option>
+          <option value="hindi">Hindi</option>
+          <option value="tamil">Tamil</option>
+          <option value="fun_version">Fun Version</option>
+        </select>
+      </div>
+      <div id="mnemonics-container"></div>
+    </section>
+
+    <section id="section-trends" class="tab-section">
+      <h2>Periodic Table Trends</h2>
+      <div id="trend-controls">
+        <label>
+          <input type="radio" name="trend-direction" value="period" checked />
+          Across Period (Left to Right)
+        </label>
+        <label>
+          <input type="radio" name="trend-direction" value="group" />
+          Down Group (Top to Bottom)
+        </label>
+
+        <label for="visual-mode">Visual Mode:</label>
+        <select id="visual-mode">
+          <option value="chart">Chart</option>
+          <option value="table">Table</option>
+          <option value="arrows">Arrows</option>
+        </select>
+      </div>
+
+      <aside id="trend-properties-list">
+        <!-- Dynamically list properties like Atomic Radius, Ionization Energy -->
+      </aside>
+
+      <div id="trend-display">
+        <!-- Graph/chart or table or arrows visual goes here -->
+        <canvas id="trend-chart" style="max-width: 800px;"></canvas>
+        <div id="trend-explanation"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/periodic-table.js"></script>
+  <script src="js/mnemonics.js"></script>
+  <script src="js/trends.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+{
+  "atomicRadius": {
+    "periodTrend": "decreases",
+    "groupTrend": "increases",
+    "explanation": "Atomic radius decreases across a period due to increasing nuclear charge pulling electrons closer, and increases down a group as new electron shells are added."
+  },
+  "ionizationEnergy": {
+    "periodTrend": "increases",
+    "groupTrend": "decreases",
+    "explanation": "Ionization energy increases across a period because atoms hold electrons tighter with more protons, and decreases down a group due to increased shielding effect."
+  },
+  "electronAffinity": {
+    "periodTrend": "generally increases",
+    "groupTrend": "generally decreases",
+    "explanation": "Electron affinity tends to increase across a period as atoms more readily accept electrons, but decreases down groups because added shells reduce effective nuclear attraction."
+  },
+  "electronegativity": {
+    "periodTrend": "increases",
+    "groupTrend": "decreases",
+    "explanation": "Electronegativity increases across a period as atoms more strongly attract electrons, and decreases down groups due to larger atomic size and shielding."
+  },
+  "metallicCharacter": {
+    "periodTrend": "decreases",
+    "groupTrend": "increases",
+    "explanation": "Metallic character decreases across a period as elements become less metal-like, and increases down a group as atoms lose electrons more easily."
+  },
+  "nonMetallicCharacter": {
+    "periodTrend": "increases",
+    "groupTrend": "decreases",
+    "explanation": "Non-metallic character increases across a period as elements become more like non-metals, and decreases down groups."
+  },
+  "reactivity": {
+    "periodTrend": "varies",
+    "groupTrend": "varies",
+    "explanation": "Reactivity depends on metal or non-metal type: metallic reactivity increases down groups, while non-metal reactivity decreases down groups."
+  },
+  "valency": {
+    "periodTrend": "varies",
+    "groupTrend": "usually fixed",
+    "explanation": "Valency varies across periods due to electron configuration changes, but generally remains consistent down a group."
+  }
+}

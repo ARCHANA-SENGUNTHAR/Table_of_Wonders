@@ -1,0 +1,72 @@
+[
+  {
+    "period": 1,
+    "elements": ["H", "He"],
+    "mnemonics": {
+      "english": "Hi He",
+      "hindi": "ही ही",
+      "tamil": "ஹி ஹீ",
+      "fun_fact": "The first period has just 2 elements!"
+    }
+  },
+  {
+    "period": 2,
+    "elements": ["Li", "Be", "B", "C", "N", "O", "F", "Ne"],
+    "mnemonics": {
+      "english": "LiBe Boring Chemistry Not On Friday Night",
+      "hindi": "ली बे बोरिंग चीजें ना ओन फ्राइडे नाइट",
+      "tamil": "லி பே சோறு நாள் ஓடு ஃப்ரீ நேம்",
+      "fun_fact": "Popular phrase to remember period 2"
+    }
+  },
+  {
+    "period": 3,
+    "elements": ["Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar"],
+    "mnemonics": {
+      "english": "NaMg Alu Sita Played Soccer Cleanly Around",
+      "hindi": "नमक में आलू सीता ने पोटाश क्लीन अरेंज किया",
+      "tamil": "நா மே அலு சீதா பந்துடன் சுத்தம் ஆடியாள்",
+      "fun_fact": "Easy to recall period 3 elements"
+    }
+  },
+  {
+    "period": 4,
+    "elements": ["K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr"],
+    "mnemonics": {
+      "english": "King CaScaded To Vanish Cranky Mnemonics For Cooking Nice Cute Zinc Gears",
+      "hindi": "किंग कास्केडेड टु वेनिश क्रैंकी म्नेमोनिक्स फॉर कुकिंग नाइस क्यूट जिंक गियर्स",
+      "tamil": "கிங் காஸ்கேட் டு வேனிஷ் க்ராங்கி ம்னெமோனிக்ஸ் குக்கிங் நைஸ் கியூட் ஜிங்க் கியர்ஸ்",
+      "fun_fact": "Long but fun for period 4 with transition metals"
+    }
+  },
+  {
+    "period": 5,
+    "elements": ["Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe"],
+    "mnemonics": {
+      "english": "Rubin Strikes Young Zebra Near Moons To Rule Rhinos, Pandas, And Silver Cats In Snappy Style",
+      "hindi": "रुबिन स्ट्राइक्स यंग ज़ेबरा नियर मून टु रूल राइनोस, पांडा, एंड सिल्वर कैट्स इन स्नैपी स्टाइल",
+      "tamil": "ரூபின் ஸ்ட்ரைக்க்ஸ் யங் ஜீப்ரா நியர் மூன்ஸ் டு ரூல் ரைனோஸ், பாண்டாஸ், அண்ட் சில்வர் கேட்ஸ் இன்ஸ்னேப்பி ஸ்டைல்",
+      "fun_fact": "Period 5 has many transition metals and interesting elements"
+    }
+  },
+  {
+    "period": 6,
+    "elements": ["Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"],
+    "mnemonics": {
+      "english": "Crazy Bats Laugh, Ceaselessly Prancing Near Pretty Small European Gardens, Turning Dynamic Horses Every Time You Help Taunt Wolves",
+      "hindi": "क्रेजी बैट्स लाफ, सिसलेसली प्रांसिंग नियर प्रिटी स्मॉल यूरोपियन गार्डन्स, टर्निंग डायनेमिक हॉर्सेज एवरी टाइम यू हेल्प टॉउन्ट वुल्व्स",
+      "tamil": "க்ரேசி பேட்ஸ் லாஃப், சிஸ்லெஸ்லி பிரான்சிங் நியர் பிரிட்டி ஸ்மால் யூரோபியன் கார்டன்ஸ், டர்னிங் டைனமிக் ஹார்சஸ் எவ்ரி டைம் யூ ஹெல்ப் டௌன்ட் வுல்வ்ஸ்",
+      "fun_fact": "Period 6 includes lanthanides and many heavy metals"
+    }
+  },
+  {
+    "period": 7,
+    "elements": ["Fr", "Ra", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"],
+    "mnemonics": {
+      "english": "Frantic Rats Act Thoughtfully, Passing Uranium Near Plutonium Amid Curious Bunkers, Effortlessly Forming Mysterious Noble Lairs",
+      "hindi": "फ्रैंटिक रैट्स एक्ट थॉटफुली, पासिंग यूरेनियम नियर प्लूटोनियम अमिड क्यूरियस बंकर्स, एफोर्टलेसली फॉर्मिंग मिस्टेरियस नोबल लेयर्स",
+      "tamil": "ஃபிராண்டிக் ராட்ட்ஸ் ஆக்ட் தாட்புல்லி, பாஸ்ஸிங் யுரேனியம் நியர் பிளூட்டோனியம் அமிட் கியூரியஸ் பங்கர்ஸ், எஃபோர்ட்லெஸ்ஸ்லி ஃபார்மிங் மிஸ்டீரியஸ் நோபல் லேயர்ஸ்",
+      "fun_fact": "Period 7 is radioactive and mostly synthetic elements"
+    }
+  }
+]
