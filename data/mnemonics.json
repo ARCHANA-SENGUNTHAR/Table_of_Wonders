@@ -1,72 +1,277 @@
-[
-  {
-    "period": 1,
-    "elements": ["H", "He"],
-    "mnemonics": {
-      "english": "Hi He",
-      "hindi": "ही ही",
-      "tamil": "ஹி ஹீ",
-      "fun_fact": "The first period has just 2 elements!"
-    }
-  },
-  {
-    "period": 2,
-    "elements": ["Li", "Be", "B", "C", "N", "O", "F", "Ne"],
-    "mnemonics": {
-      "english": "LiBe Boring Chemistry Not On Friday Night",
-      "hindi": "ली बे बोरिंग चीजें ना ओन फ्राइडे नाइट",
-      "tamil": "லி பே சோறு நாள் ஓடு ஃப்ரீ நேம்",
-      "fun_fact": "Popular phrase to remember period 2"
-    }
-  },
-  {
-    "period": 3,
-    "elements": ["Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar"],
-    "mnemonics": {
-      "english": "NaMg Alu Sita Played Soccer Cleanly Around",
-      "hindi": "नमक में आलू सीता ने पोटाश क्लीन अरेंज किया",
-      "tamil": "நா மே அலு சீதா பந்துடன் சுத்தம் ஆடியாள்",
-      "fun_fact": "Easy to recall period 3 elements"
-    }
-  },
-  {
-    "period": 4,
-    "elements": ["K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr"],
-    "mnemonics": {
-      "english": "King CaScaded To Vanish Cranky Mnemonics For Cooking Nice Cute Zinc Gears",
+{
+  "periods": [
+    {
+      "period": 1,
+      "elements": ["H", "He"],
+      "mnemonics": {
+        "english": "Hi He",
+        "hindi": "ही ही",
+        "tamil": "ஹி ஹீ",
+        "fun_fact": "The first period has just 2 elements!"
+      }
+    },
+    {
+      "period": 2,
+      "elements": ["Li", "Be", "B", "C", "N", "O", "F", "Ne"],
+      "mnemonics": {
+        "english": "LiBe Boring Chemistry Not On Friday Night",
+        "hindi": "ली बे बोरिंग चीजें ना ओन फ्राइडे नाइट",
+        "tamil": "லி பே சோறு நாள் ஓடு ஃப்ரீ நேம்",
+        "fun_fact": "Popular phrase to remember period 2"
+      }
+    },
+    {
+      "period": 3,
+      "elements": ["Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar"],
+      "mnemonics": {
+        "english": "NaMg Alu Sita Played Soccer Cleanly Around",
+        "hindi": "नमक में आलू सीता ने पोटाश क्लीन अरेंज किया",
+        "tamil": "நா மே அலு சீதா பந்துடன் சுத்தம் ஆடியாள்",
+        "fun_fact": "Easy to recall period 3 elements"
+      }
+    },
+     {
+      "period": 4,
+      "elements": ["K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe","Co","Ni","Cu","Zn","Ga","Ge","As","Se","Br","Kr"],
+      "mnemonics": {
+       "english": "King CaScaded To Vanish Cranky Mnemonics For Cooking Nice Cute Zinc Gears",
       "hindi": "किंग कास्केडेड टु वेनिश क्रैंकी म्नेमोनिक्स फॉर कुकिंग नाइस क्यूट जिंक गियर्स",
       "tamil": "கிங் காஸ்கேட் டு வேனிஷ் க்ராங்கி ம்னெமோனிக்ஸ் குக்கிங் நைஸ் கியூட் ஜிங்க் கியர்ஸ்",
-      "fun_fact": "Long but fun for period 4 with transition metals"
-    }
-  },
-  {
-    "period": 5,
-    "elements": ["Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe"],
-    "mnemonics": {
+      "fun_fact": "Period 4 is the first period with transition metals like iron, copper, and zinc."
+      }
+    },
+    {
+      "period": 5,
+      "elements": ["Rb", "Sr", "Y", "Zr", "Nb", "Mo", "Tc", "Ru","Rh","Pd","Ag","Cd","In","Sn","Sb","Te","I","Xe"],
+      "mnemonics": {
       "english": "Rubin Strikes Young Zebra Near Moons To Rule Rhinos, Pandas, And Silver Cats In Snappy Style",
       "hindi": "रुबिन स्ट्राइक्स यंग ज़ेबरा नियर मून टु रूल राइनोस, पांडा, एंड सिल्वर कैट्स इन स्नैपी स्टाइल",
       "tamil": "ரூபின் ஸ்ட்ரைக்க்ஸ் யங் ஜீப்ரா நியர் மூன்ஸ் டு ரூல் ரைனோஸ், பாண்டாஸ், அண்ட் சில்வர் கேட்ஸ் இன்ஸ்னேப்பி ஸ்டைல்",
-      "fun_fact": "Period 5 has many transition metals and interesting elements"
-    }
-  },
-  {
-    "period": 6,
-    "elements": ["Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt", "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn"],
-    "mnemonics": {
+      "fun_fact": "Period 5 has silver (jewellery) and iodine (disinfectant)."
+      }
+    },
+    {
+      "period": 6,
+      "elements": ["Cs", "Ba", "Hf", "Ta", "W", "Re", "Os", "Ir","Pt","Au","Hg","Tl","Pb","Bi","Po","At","Rn"],
+      "mnemonics": {
       "english": "Crazy Bats Laugh, Ceaselessly Prancing Near Pretty Small European Gardens, Turning Dynamic Horses Every Time You Help Taunt Wolves",
       "hindi": "क्रेजी बैट्स लाफ, सिसलेसली प्रांसिंग नियर प्रिटी स्मॉल यूरोपियन गार्डन्स, टर्निंग डायनेमिक हॉर्सेज एवरी टाइम यू हेल्प टॉउन्ट वुल्व्स",
       "tamil": "க்ரேசி பேட்ஸ் லாஃப், சிஸ்லெஸ்லி பிரான்சிங் நியர் பிரிட்டி ஸ்மால் யூரோபியன் கார்டன்ஸ், டர்னிங் டைனமிக் ஹார்சஸ் எவ்ரி டைம் யூ ஹெல்ப் டௌன்ட் வுல்வ்ஸ்",
-      "fun_fact": "Period 6 includes lanthanides and many heavy metals"
-    }
-  },
-  {
-    "period": 7,
-    "elements": ["Fr", "Ra", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr"],
-    "mnemonics": {
-      "english": "Frantic Rats Act Thoughtfully, Passing Uranium Near Plutonium Amid Curious Bunkers, Effortlessly Forming Mysterious Noble Lairs",
+      "fun_fact": "Period 6 is the longest period and includes gold and platinum."
+      }
+    },
+    {
+      "period": 7,
+      "elements": ["Fr", "Ra", "Rf", "Db", "Sg", "Bh", "Hs", "Mt","Ds","Rg","Cn","Nh","Fl","Mc","Lv","Ts","Og"],
+      "mnemonics": {
+       "english": "Frantic Rats Act Thoughtfully, Passing Uranium Near Plutonium Amid Curious Bunkers, Effortlessly Forming Mysterious Noble Lairs",
       "hindi": "फ्रैंटिक रैट्स एक्ट थॉटफुली, पासिंग यूरेनियम नियर प्लूटोनियम अमिड क्यूरियस बंकर्स, एफोर्टलेसली फॉर्मिंग मिस्टेरियस नोबल लेयर्स",
       "tamil": "ஃபிராண்டிக் ராட்ட்ஸ் ஆக்ட் தாட்புல்லி, பாஸ்ஸிங் யுரேனியம் நியர் பிளூட்டோனியம் அமிட் கியூரியஸ் பங்கர்ஸ், எஃபோர்ட்லெஸ்ஸ்லி ஃபார்மிங் மிஸ்டீரியஸ் நோபல் லேயர்ஸ்",
-      "fun_fact": "Period 7 is radioactive and mostly synthetic elements"
+      "fun_fact": "Period 7 contains radioactive elements like uranium and thorium."
+      }
     }
-  }
-]
+  ],
+  
+  "groups": [
+    {
+      "group": 1,
+      "elements": ["H", "Li", "Na", "K", "Rb", "Cs", "Fr"],
+      "mnemonics": {
+        "english": "Hi Little Naughty Kids Rub Cute Friends",
+        "hindi": "ही लिटिल नॉटी किड्स रब क्यूट फ्रेंड्स",
+        "tamil": "ஹி லிட்டில் நாட்டு கிட்ஸ் ரப் க்யூட் ஃப்ரெண்ட்ஸ்",
+        "fun_fact": "Group 1 is alkali metals, very reactive"
+      }
+    },
+    {
+      "group": 2,
+      "elements": ["Be", "Mg", "Ca", "Sr", "Ba", "Ra"],
+      "mnemonics": {
+        "english": "Be My Cute Sister's Granny's Rabbit",
+      "hindi": "बन मेरी क्यूट बहन की दादी का खरगोश",
+      "tamil": "என் அழகான சகோதரியின் பாட்டியின் முயலாக இரு",
+      "fun_fact": "Beryllium, in Group 2, is light yet stronger than steel."
+      }
+    },
+    {
+      "group": 3,
+      "elements": ["Sc", "Y", "La", "Ac"],
+      "mnemonics": {
+       "english": "Scary Young Lions Act",
+      "hindi": "डरावने युवा शेर अभिनय करते",
+      "tamil": "பயமுறுத்தும் இளம் சிங்கங்கள் நடிக்கின்றன",
+      "fun_fact": "Group 3 includes elements used in strong magnets and lasers."
+      }
+    },
+    {
+      "group": 4,
+      "elements": ["Ti", "Zr", "Hf", "Rf"],
+      "mnemonics": {
+      "english": "Titan Zaps Heavy Robots",
+      "hindi": "टाइटन भारी रोबोट्स को झटका देता",
+      "tamil": "டைட்டன் கனமான ரோபோட்களுக்கு மின்சாரம் கொடுக்கிறது",
+      "fun_fact": "Titanium from Group 4 is used in airplanes and medical implants."
+      }
+    },
+    {
+      "group": 5,
+      "elements": ["V", "Nb", "Ta", "Db"],
+      "mnemonics": {
+      "english": "Van Nibbles Tiny Dishes",
+      "hindi": "वैन छोटे बर्तनों को चबाता",
+      "tamil": "வேன் சிறிய பாத்திரங்களை கடிக்கிறது",
+      "fun_fact": "Vanadium alloys make tools and springs stronger."
+      }
+    },
+    {
+      "group": 6,
+      "elements": ["Cr", "Mo", "W", "Sg"],
+      "mnemonics": {
+     "english": "Cranky Moans With Seedy Teeth",
+      "hindi": "चिड़चिड़ा बीज वाले दाँतों के साथ कराहता",
+      "tamil": "விதைகள் நிறைந்த பற்களுடன் சீற்றமாக குறட்டுகிறது",
+      "fun_fact": "Chromium gives emeralds and rubies their color."
+      }
+    },
+    {
+      "group": 7,
+      "elements": ["Mn", "Tc", "Re", "Bh"],
+      "mnemonics": {
+      "english": "Manny Takes Repeated Books",
+      "hindi": "मैनी बार-बार किताबें लेता",
+      "tamil": "மன்னி மீண்டும் மீண்டும் புத்தகங்களை எடுத்துக்கொள்கிறார்",
+      "fun_fact": "Manganese is vital in steel production."
+      }
+    },
+    {
+      "group": 8,
+      "elements": ["Fe", "Ru", "Os", "Hs"],
+      "mnemonics": {
+       "english": "Feather Rides On Ruthless OX",
+      "hindi": "पंख निर्दयी बैल पर सवारी करता",
+      "tamil": "இறகு கொடிய காளையின் மீது சவாரி செய்கிறது",
+      "fun_fact": "Iron, ruthenium, and osmium are Group 8 metals with industrial uses."
+      }
+    },
+    {
+      "group": 9,
+      "elements": ["Co", "Rh", "Ir", "Mt"],
+      "mnemonics": {
+      "english": "Co Rhymes In Music",
+      "hindi": "को संगीत में तुकबंदी करता",
+      "tamil": "கோ இசையில் ஒத்திசை செய்கிறது",
+      "fun_fact": "Cobalt compounds give glass a deep blue color."
+      }
+    },
+    {
+      "group": 10,
+      "elements": ["Ni", "Pd", "Pt", "Ds"],
+      "mnemonics": {
+      "english": "Nick Prowls Darkly",
+      "hindi": "निक अंधेरे में घूमता",
+      "tamil": "நிக் இருளில் உலா செல்கிறார்",
+      "fun_fact": "Nickel is used to make stainless steel."
+      }
+    },
+    {
+      "group": 11,
+      "elements": ["Cu", "Ag", "Au", "Rg"],
+      "mnemonics": {
+       "english": "Cute Aunt Gives",
+      "hindi": "प्यारी आंटी देती है",
+      "tamil": "அழகான அத்தை கொடுக்கிறார்",
+      "fun_fact": "Group 11 metals—copper, silver, and gold—are called coinage metals."
+      }
+    },
+    {
+      "group": 12,
+      "elements": ["Zn", "Cd", "Hg", "Cn"],
+      "mnemonics": {
+      "english": "Zebra Cadets Hurry",
+      "hindi": "ज़ेब्रा कैडेट जल्दी करते",
+      "tamil": "ஜீப்ரா கேடட் விரைவாக செய்கிறார்கள்",
+      "fun_fact": "Zinc is essential for human health."
+      }
+    },
+    {
+      "group": 13,
+      "elements": ["B", "Al", "Ga", "In","Tl","Nh"],
+      "mnemonics": {
+      "english": "Bored All Good Idiots To Talk",
+      "hindi": "उबाऊ सभी अच्छे बेवकूफ बात करते",
+      "tamil": "சலிப்பு அனைத்து நல்ல முட்டாள்களும் பேசுகின்றனர்",
+      "fun_fact": "Boron from Group 13 is used in glass and detergents."
+      }
+    },
+    {
+      "group": 14,
+      "elements": ["C", "Si", "Ge", "Sn","Pb","Fl"],
+      "mnemonics": {
+      "english": "Carefully See Green Snakes Placed",
+      "hindi": "सावधानी से हरे सांप रखें",
+      "tamil": "கவனமாக பச்சை பாம்புகளை வையுங்கள்",
+      "fun_fact": "Carbon is the basis of all known life."
+      }
+    },
+    {
+      "group": 15,
+      "elements": ["N", "P", "As", "Sb","Bi","Mc"],
+      "mnemonics": {
+      "english": "No Push All Small Bicycles",
+      "hindi": "कोई सभी छोटी साइकिल नहीं धकेलता",
+      "tamil": "சிறிய சைக்கிள்களை யாரும் தள்ள மாட்டார்கள்",
+      "fun_fact": "Nitrogen makes up 78% of Earth's atmosphere."
+      }
+    },
+    {
+      "group": 16,
+      "elements": ["o", "S", "Se", "Te","Po","Lv"],
+      "mnemonics": {
+      "english": "Oh Sweet Summer Time",
+      "hindi": "ओह मीठा गर्मी का समय",
+      "tamil": "அஹா இனிய கோடை நேரம்",
+      "fun_fact": "Oxygen is essential for respiration in most living beings."
+      }
+    },
+    {
+      "group": 17,
+      "elements": ["F", "Cl", "Br", "I","At","Ts"],
+      "mnemonics": {
+      "english": "Funny Clowns Bring Intelligent Astronauts",
+      "hindi": "मजेदार जोकर बुद्धिमान अंतरिक्ष यात्रियों को लाते",
+      "tamil": "வேடிக்கையான காமாளிகள் புத்திசாலி விண்வெளி வீரர்களை கொண்டு வருகின்றனர்",
+      "fun_fact": "Group 17 elements are called halogens, meaning 'salt-formers'."
+      }
+    },
+    {
+      "group": 18,
+      "elements": ["He", "Ne", "Ar", "Kr","Xe","Rn","Og"],
+      "mnemonics": {
+      "english": "Happy Neighbours Are Kind Xtra Rich",
+      "hindi": "खुश पड़ोसी अतिरिक्त अमीर हैं",
+      "tamil": "மகிழ்ச்சியான அயலவர்கள் கூடுதல் பணக்காரர்கள்",
+      "fun_fact": "Noble gases are so stable they rarely react with other elements."
+      }
+    }
+  ],
+  
+  "lanthanides": [
+    {
+      "elements": ["La", "Ce", "Pr", "Nd","Pm","Sm","Eu","Gd","Tb","Dy","Ho","Er","Tm","Yb","Lu"],
+      "english": "Lazy Cats Prance Near Pretty Smiling Elegant Gardens, Taking Dynamic Hops Every Time You Help",
+      "hindi": "आलसी बिल्लियाँ सुंदर मुस्कुराते बगीचों के पास कूदती हैं, हर बार जब आप मदद करते हैं",
+      "tamil": "மந்தமான பூனைகள் அழகான புன்னகை பூங்காக்களுக்கு அருகில் குதிக்கின்றன, நீங்கள் உதவும்போது ஒவ்வொரு முறையும்",
+      "fun_fact": "Lanthanides are also called rare earth elements, used in magnets, lasers, and electronics."
+    }
+  ],
+  
+  "actinides": [
+    {
+      "elements": ["Ac", "Th", "Pa", "U","Np","Pu","Am","Cm","Bk","Cf","Es","Fm","Md","No","Lr"],
+      "english": "Active Rats Try Pumping Up Mighty Nuclear Power",
+      "hindi": "सक्रिय चूहे शक्तिशाली न्यूक्लियर पावर को पंप करने की कोशिश करते हैं",
+      "tamil": "சுறுசுறுப்பான எலி வலுவான அணு சக்தியை ஊட்ட முயற்சிக்கின்றனர்",
+      "fun_fact": "Actinides include all radioactive elements used in nuclear reactors and weapons."
+    }
+  ]
+}

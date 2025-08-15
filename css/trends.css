@@ -1,0 +1,75 @@
+.trend-wrap {
+  padding: 16px;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Controls: bigger dropdowns and buttons */
+.controls select {
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #2a2f4a;
+  background: #1b1f36;
+  color: #f6f7fb;
+  margin-right: 12px;
+}
+
+.controls .chip {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #2a2f4a;
+  background: #1b1f36;
+  color: #f6f7fb;
+  margin-right: 8px;
+}
+
+.controls .chip.active {
+  background: #4CAF50;
+  color: #fff;
+}
+
+.controls label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.heat {
+  display: grid;
+  gap: 12px;
+  padding: 16px 8px 8px 8px;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 16px;
+  color: #fff;
+  border: 1px solid #2a2f4a;
+  font-size: 16px;
+  text-align: center;
+  min-height: 70px;
+}
+
+canvas {
+  margin-bottom: 16px;
+  background: #161a2e; /* optional dark bg for canvas */
+}
+
+/* Trend statement: 2-line, more visible */
+#trendStatement {
+  color: #f6f7fb;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-top: 16px;
+}
