@@ -1,0 +1,63 @@
+.mn-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.mn-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.mn-card h3 {
+  margin: 0 0 .5rem;
+  color: #444;
+}
+
+.elements {
+  font-weight: bold;
+  color: #222;
+}
+
+.mnemonic {
+  font-style: italic;
+  color: #555;
+}
+
+.fun-fact {
+  display: block;
+  margin-top: .5rem;
+  font-size: 0.85em;
+  color: #777;
+}
+
+.lang .chip {
+  background: #1b1f36;  /* dark gray */
+  color: #f6f7fb;       /* light text */
+  border: 1px solid #2a2f4a;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;   /* bigger clickable area */
+  font-size: 16px;        /* larger text */
+  margin-right: 0.5rem;
+  cursor: pointer;min-width: 50px;
+  text-align: center
+}
+
+.lang .chip.active {
+  background: #4CAF50;
+  color: #fff;
+}
+.controls div label {
+    font-size: 18px;       /* larger text */
+    margin-right: 16px;    /* more spacing between options */
+    cursor: pointer;
+}
+
+.controls div input[type="radio"] {
+    width: 20px;   /* bigger radio circle */
+    height: 20px;
+    margin-right: 6px; /* space between circle and label */
+}

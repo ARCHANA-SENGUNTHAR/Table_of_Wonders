@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Periodic Trends</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/trends.css">
+</head>
+<body>
+<header class="topbar">
+  <h2>📈 Periodic Trends</h2>
+  <nav><a href="../frontPage.html">Back</a></nav>
+</header>
+
+<section class="controls">
+  <label>Property:
+    <select id="propSel">
+      <option value="atomicRadius">Atomic Radius</option>
+      <option value="ionizationEnergy">Ionization Energy</option>
+      <option value="electronAffinity">Electron Affinity</option>
+      <option value="electronegativity">Electronegativity</option>
+      <option value="metallicCharacter">Metallic Character</option>
+      <option value="nonMetallicCharacter">Non-Metallic Character</option>
+      <option value="reactivity">Reactivity</option>
+      <option value="valency">Valency</option>
+    </select>
+  </label>
+
+  <label>Path:
+    <select id="pathSel">
+      <option value="periodTrend">Across Period →</option>
+      <option value="groupTrend">Down Group ⬇</option>
+    </select>
+  </label>
+
+  <button id="modeLine" class="chip active">Line Chart</button>
+  <button id="modeHeat" class="chip">Heatmap</button>
+</section>
+
+<main class="trend-wrap">
+  <canvas id="chart" width="920" height="360" aria-label="Trend chart"></canvas>
+  <div id="heat" class="heat hidden"></div>
+  <p id="trendStatement" style="margin-top:16px; font-size:16px; color:#3a4068;"></p>
+</main>
+
+<script src="../js/trends.js"></script>
+</body>
+</html>

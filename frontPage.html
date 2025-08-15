@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Periodic Table Explorer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/table.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Periodic Table Explorer</h1>
+    <nav>
+      <a href="index.html">🏠 Home</a>
+      <a href="pages/learn-quickly.html">📘 Learn Quickly</a>
+      <a href="pages/trends.html">📈 Trends</a>
+    </nav>
+  </header>
+
+  <section class="controls">
+    <input id="searchInput" type="search" placeholder="Search name, symbol or #">
+  <div class="filters">
+  <button data-filter="all" class="chip active">All</button>
+  <button data-filter="alkali-metal" class="chip">Alkali</button>
+  <button data-filter="alkaline-earth-metal" class="chip">Alkaline</button>
+  <button data-filter="transition-metal" class="chip">Transition</button>
+  <button data-filter="metalloid" class="chip">Metalloid</button>
+  <button data-filter="nonmetal" class="chip">Nonmetal</button>
+  <button data-filter="noble-gas" class="chip">Noble gas</button>
+  <button data-filter="lanthanoid" class="chip">Lanthanides</button>
+  <button data-filter="actinoid" class="chip">Actinides</button>
+</div>
+
+
+  </section>
+
+  <main class="ptable" id="ptable"></main>
+
+  <aside id="details" class="details hidden" aria-live="polite"></aside>
+
+  <script src="js/utils.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/renderTable.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/search.js"></script>
+<script src="js/themeToggle.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

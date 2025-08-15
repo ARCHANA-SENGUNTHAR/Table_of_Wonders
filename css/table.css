@@ -1,0 +1,118 @@
+/* css/table.css */
+
+.ptable {
+  --cols: 18; /* 18 groups */
+  display: grid;
+  grid-template-columns: repeat(var(--cols), minmax(52px, 1fr));
+  /* 7 main rows + 2 rows for lanthanide & actinide series */
+  grid-template-rows: repeat(7, minmax(64px, auto)) repeat(2, minmax(64px, auto));
+  gap: 8px;
+  padding: 12px 16px;
+}
+
+/* Base cell */
+.cell {
+  background: #151936;
+  border: 1px solid #242a55;
+  border-radius: 10px;
+  padding: 6px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  transition: transform .12s ease, box-shadow .12s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 52px;
+  min-height: 52px;
+}
+
+/* Placeholder cells (invisible) to maintain gaps) */
+.cell.empty {
+  background: transparent;
+  border: none;
+  pointer-events: none;
+  visibility: visible; /* keeps the grid cell size while invisible content */
+}
+
+/* hover */
+.cell:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,.25);
+}
+
+/* typography inside */
+.cell .num { font-size: 0.65rem; opacity: .85; }
+.cell .sym { font-size: 1.25rem; font-weight: 800; line-height: 1; }
+.cell .name { font-size: 0.7rem; opacity: .9; line-height:1.1; word-break:break-word; }
+
+/* category coloring (keep your colors) */
+.cell[data-category="noble-gas"] { background: linear-gradient(180deg,#1b2a5c,#16234a); }
+.cell[data-category="nonmetal"] { background: linear-gradient(180deg,#1b5c2a,#163f24); }
+.cell[data-category="alkali-metal"] { background: linear-gradient(180deg,#5c1b2a,#3f1624); }
+.cell[data-category="alkaline-earth-metal"] { background: linear-gradient(180deg,#5c431b,#3f2e16); }
+.cell[data-category="transition-metal"] { background: linear-gradient(180deg,#5c5a1b,#3f3d16); }
+.cell[data-category="post-transition-metal"] { background: linear-gradient(180deg,#4a5c1b,#344216); }
+.cell[data-category="metalloid"] { background: linear-gradient(180deg,#1b5c5a,#163f3d); }
+.cell[data-category="halogen"] { background: linear-gradient(180deg,#5c1b54,#3f163a); }
+.cell[data-category*="lanth"] { background: linear-gradient(180deg,#3b1b5c,#28163f); } /* catches lanthanoid/lanthanide */
+.cell[data-category*="acti"] { background: linear-gradient(180deg,#5c1b1b,#3f1616); } /* actinoid/actinide */
+
+/* style tweaks for the lanth/acti rows label (optional) */
+.ptable .series-label {
+  grid-column: 1 / -1;
+  justify-self: center;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 6px 0;
+}
+
+/* responsive */
+@media (max-width: 900px) {
+  .ptable { grid-template-columns: repeat(9, 1fr); } /* collapse columns for small screens */
+  .cell { min-height: 60px; }
+}
+/* NEW: Arrow to indicate series location */
+.arrow-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.arrow-link svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--fg);
+  transition: transform 0.2s ease;
+}
+
+.arrow-link:hover svg {
+  transform: translateY(2px) scale(1.1);
+}
+
+/* Tooltip for arrows */
+.arrow-link::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(20,22,35,0.95);
+  color: #fff;
+  padding: 4px 6px;
+  font-size: 0.75rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+
+.arrow-link:hover::after {
+  opacity: 1;
+}

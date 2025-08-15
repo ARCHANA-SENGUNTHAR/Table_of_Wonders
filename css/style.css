@@ -1,41 +1,98 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0; padding: 0;
-  background: #f0f8ff;
-  color: #333;
+:root{
+  --bg:#0f1222; --fg:#f6f7fb; 
+  --muted:#9aa0b4;
+  --chip:#1b1f36; 
+  --chip-active:#2b2f4a; 
+  --card:#161a2e;
+  --radius:16px;
 }
-
-header {
-  background-color: #2c3e50;
-  color: white;
-  padding: 1rem;
-  text-align: center;
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--fg);
+  font:500 16px/1.5 system-ui,Segoe UI,Roboto
 }
-
-nav button {
-  background: #34495e;
-  color: white;
+.topbar{
+  display:flex;
+  gap:16px;
+  align-items:center;
+  justify-content:space-between;
+  padding:12px 16px;
+  border-bottom:1px solid #222844
+}
+.topbar a{
+  color:var(--fg);
+  opacity:.9;
+  text-decoration:none;
+  margin-right:12px
+}
+.controls{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  flex-wrap:wrap;
+  padding:12px 16px
+}
+input[type=search]{
+  flex:1;
+  min-width:220px;
+  padding:10px 12px;
+  border-radius:var(--radius);
+  border:1px solid #2a2f4a;
+  background:#0b0e1d;
+  color:var(--fg)
+}
+.chip{
+  border:1px solid #2a2f4a;
+  border-radius:999px;
+  background:var(--chip);
+  color:var(--fg);
+  padding:6px 10px;
+  cursor:pointer
+}
+.chip.active{
+  background:var(--chip-active)
+}
+.details{
+  position:fixed;
+  right:16px;
+  top:80px;
+  width:320px;
+  max-height:80vh;
+  overflow:auto;
+  background:var(--card);
+  border:1px solid #23284a;
+  border-radius:var(--radius);
+  padding:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,.4)
+}
+.details.hidden{
+  display:none
+}
+.tooltip {
+  position: absolute;
+  background: rgba(20,22,35,0.95);
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.12s ease;
+  z-index: 1200;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+}
+.cell.empty {
+  background: transparent;
   border: none;
-  margin: 0 0.3rem;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  font-weight: bold;
+  cursor: default;
+  pointer-events: none;
+}
+.ptable {
+  display: grid;
+  grid-template-columns: repeat(18, minmax(40px, 1fr));
+  grid-template-rows: repeat(9, auto); /* 1–7 main + 8–9 for extra series */
+  gap: 6px;
 }
 
-nav button.active {
-  background: #1abc9c;
-}
-
-main {
-  padding: 1rem;
-}
-
-.tab-section {
-  display: none;
-}
-
-.tab-section.active {
-  display: block;
-}
-
-/* Add styles for periodic table, element details, mnemonics, and trends in their respective CSS files */
