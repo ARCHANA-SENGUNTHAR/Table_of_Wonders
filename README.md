@@ -12,7 +12,7 @@ You can view the live version here:
 ---
 
 ##  Project Structure
-
+```
 table-of-wonders/
 │── index.html # Main HTML file
 │── welcome.html # Animated welcome page (optional, if separated)
@@ -24,7 +24,7 @@ table-of-wonders/
 │ └── images/ # Store images (if any)
 │── README.md # Project documentation
 
-
+```
 ---
 
 ##  Installation & Setup
