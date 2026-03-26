@@ -71,15 +71,15 @@ table-of-wonders/
 
 #  Contact Author
 
- **Archana Sengunthar**
+ **Archana Gurusamy**
  
-📧 Email: [archanagurusamy648@gmail.com](mailto:archanagurusamy648@gmail.com)  
-🔗 GitHub: [github.com/ARCHANA-SENGUNTHAR](https://github.com/ARCHANA-SENGUNTHAR)
+📧 [Email](mailto:archanagurusamy648@gmail.com)  
+🔗 [GitHub](https://github.com/ARCHANA-SENGUNTHAR)
 
 **Deepika S**
 
-📧 Email: [studiesfor456@gmail.com](mailto:studiesfor456@gmail.com)  
-🔗 GitHub: [github.com/Deepikasel](https://github.com/Deepikasel)
+📧 [Email](mailto:studiesfor456@gmail.com)  
+🔗 [GitHub](https://github.com/Deepikasel)
 
 ---
 
